@@ -1,0 +1,14 @@
+public int size()
+{
+Node <E> temp= new Node<> (0,head)
+
+int result =0; //counter
+
+while(temp.getNext()!=null)
+{
+  result++;
+  temp=temp.getNext();  //move one node ahead
+
+}
+  return result;
+}
